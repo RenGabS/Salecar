@@ -36,94 +36,115 @@
                     </div>
                     <div class="filtercard">
                         <input type="text"
-                         class="search-input" 
-                         placeholder="Escolha seu modelo favorito">
-
-                         <button class="search-button">Encontrar</button>
+                        id="myInput" onkeyup="myFunction()" placeholder="Escolha seu modelo favorito...">
+                        
+                         
                     </div>
-                    <div class="card-wrapper">
-                        <div class="card-item">
-                            <img src="images/gol quadrado.png" alt="Car">
-                            <div class="card-content">
-                                <h3>Volkswagen Gol GTS 1991</h3>
-                                <p>Usado.R$ 15.000.</p>
-                                <button type="button">Eu quero isso!</button>
-                            </div>
+                        <div class="card-wrapper">
+                            <ul id="myUL">
+                                <li>
+                                    <div class="card-item">
+                                    <img src="images/gol quadrado.png" alt="Car">
+                                        <div class="card-content">
+                                            <h3><a>Volkswagen Gol GTS 1991</a></h3>
+                                            <p>Usado.R$ 15.000.</p>
+                                            <button type="button">Eu quero isso!</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="card-item">
+                                        <img src="images/celta.png" alt="Car">
+                                        <div class="card-content">
+                                            <h3><a>Chevrolet Celta 2012.</a></h3>
+                                            <p>Seminovo.R$25.000.</p>
+                                            <button type="button">Eu quero isso!</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                <div class="card-item">
+                                    <img src="images/corsa.png" alt="Car">
+                                    <div class="card-content">
+                                        <h3><a>Chevrolet Corsa 2009.</a></h3>
+                                        <p>Seminovo.R$26.000.</p>
+                                        <button type="button">Eu quero isso!</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card-item">
+                                    <img src="images/palio.png" alt="Car">
+                                    <div class="card-content">
+                                        <h3><a>Fiat Palio 2004.</a></h3>
+                                        <p>Usado.R$13.000.</p>
+                                        <button type="button">Eu quero isso!</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card-item">
+                                    <img src="images/clio.png" alt="Car">
+                                    <div class="card-content">
+                                        <h3><a>Renault Clio 2001.</a></h3>
+                                        <p>Usado.R$10.000.</p>
+                                        <button type="button">Eu quero isso!</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card-item">
+                                    <img src="images/gol g3.png" alt="Car">
+                                    <div class="card-content">
+                                        <h3><a>Gol G3 2000.</a></h3>
+                                        <p>Usado.R$12.000.</p>
+                                        <button type="button">Eu quero isso!</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card-item">
+                                    <img src="images/onix joy 2019.png" alt="Car">
+                                    <div class="card-content">
+                                        <h3><a>Onix Joy 2019.</a></h3>
+                                        <p>Novo.R$52.000.</p>
+                                        <button type="button">Eu quero isso!</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card-item">
+                                    <img src="images/polo.png" alt="Car">
+                                    <div class="card-content">
+                                        <h3><a>Volkswagen Polo 2020.</a></h3>
+                                        <p>Novo.R$65.000.</p>
+                                        <button type="button">Eu quero isso!</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card-item">
+                                    <img src="images/sandero.png" alt="Car">
+                                    <div class="card-content">
+                                        <h3><a>Renault Sandero 2018.</a></h3>
+                                        <p>Novo.R$45.000.</p>
+                                        <button type="button">Eu quero isso!</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card-item">
+                                    <img src="images/Uno-Fire.png" alt="Car">
+                                    <div class="card-content">
+                                        <h3><a>Fiat Uno Fire 2006.</a></h3>
+                                        <p>Novo.R$15.000.</p>
+                                        <button type="button">Eu quero isso!</button>
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            </ul>
                         </div>
-                        <div class="card-item">
-                            <img src="images/celta.png" alt="Car">
-                            <div class="card-content">
-                                <h3>Chevrolet Celta 2012</h3>
-                                <p>Seminovo.R$25.000.</p>
-                                <button type="button">Eu quero isso!</button>
-                            </div>
-                        </div>
-                        <div class="card-item">
-                            <img src="images/corsa.png" alt="Car">
-                            <div class="card-content">
-                                <h3>Chevrolet Corsa 2009</h3>
-                                <p>Seminovo.R$26.000.</p>
-                                <button type="button">Eu quero isso!</button>
-                            </div>
-                        </div>
-                        <div class="card-item">
-                            <img src="images/palio.png" alt="Car">
-                            <div class="card-content">
-                                <h3>Fiat Palio 2004.</h3>
-                                <p>Usado.R$13.000.</p>
-                                <button type="button">Eu quero isso!</button>
-                            </div>
-                        </div>
-                        <div class="card-item">
-                            <img src="images/clio.png" alt="Car">
-                            <div class="card-content">
-                                <h3>Renault Clio 2001</h3>
-                                <p>Usado.R$10.000.</p>
-                                <button type="button">Eu quero isso!</button>
-                            </div>
-                        </div>
-                        <div class="card-item">
-                            <img src="images/gol g3.png" alt="Car">
-                            <div class="card-content">
-                                <h3>Gol G3 2000</h3>
-                                <p>Usado.R$12.000.</p>
-                                <button type="button">Eu quero isso!</button>
-                            </div>
-                        </div>
-                        <div class="card-item">
-                            <img src="images/onix joy 2019.png" alt="Car">
-                            <div class="card-content">
-                                <h3>Onix Joy 2019</h3>
-                                <p>Novo.R$52.000.</p>
-                                <button type="button">Eu quero isso!</button>
-                            </div>
-                        </div>
-                        <div class="card-item">
-                            <img src="images/polo.png" alt="Car">
-                            <div class="card-content">
-                                <h3>Volkswagen Polo 2020</h3>
-                                <p>Novo.R$65.000.</p>
-                                <button type="button">Eu quero isso!</button>
-                            </div>
-                        </div>
-                        <div class="card-item">
-                            <img src="images/sandero.png" alt="Car">
-                            <div class="card-content">
-                                <h3>Renault Sandero 2018</h3>
-                                <p>Novo.R$45.000.</p>
-                                <button type="button">Eu quero isso!</button>
-                            </div>
-                        </div>
-                        <div class="card-item">
-                            <img src="images/ARGO.PNG" alt="Car">
-                            <div class="card-content">
-                                <h3>Fiat Argo 2023</h3>
-                                <p>Novo.R$70.000.</p>
-                                <button type="button">Eu quero isso!</button>
-                                
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
             <section class="about" id="about">
@@ -189,5 +210,26 @@
                     SALECAR AUTOMÓVEIS-RENAN E RAPHAEL
                 </div>
             </footer>
+            <script>
+                function myFunction() {
+                  // Declare variables
+                  var input, filter, ul, li, a, i, txtValue;
+                  input = document.getElementById('myInput');
+                  filter = input.value.toUpperCase();
+                  ul = document.getElementById("myUL");
+                  li = ul.getElementsByTagName('li');
+                
+                  // Loop through all list items, and hide those who don't match the search query
+                  for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    txtValue = a.textContent || a.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                      li[i].style.display = "";
+                    } else {
+                      li[i].style.display = "none";
+                    }
+                  }
+                }
+                </script>
         </body>
 </html>
