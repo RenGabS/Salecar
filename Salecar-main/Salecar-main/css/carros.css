@@ -1,0 +1,45 @@
+.formArea {
+text-align: right;
+}
+
+.compras {
+    text-align: right;
+}
+.compras button {
+    padding: 8px 40px;
+    cursor: pointer;
+    margin-left: 30px;
+    color: var(#00285f);
+    border-radius: 4px;
+    text-align: none;
+}
+
+.compras button:hover {
+    color: #00285f;
+}
+
+.compras button:hover {
+    transition: background, color 0.6s;
+    background: var(--blue);
+    color: #f78b00;
+}
+
+.valor {
+    text-align: right;
+    font-size: 50%;
+}
+
+.fotodocarro {
+    text-align: right;
+    font-size: 200%;
+}
+
+.fotodocarro img {
+    width: 40%;
+    border: 50%;
+}
+
+body {
+    color: #f78b00;
+    background-color: #00285f;
+}
